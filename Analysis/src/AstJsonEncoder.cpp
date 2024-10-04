@@ -80,7 +80,7 @@ struct AstJsonEncoder : public AstVisitor
 
     void writeType(std::string_view propValue)
     {
-        write("type", propValue);
+        write("tokenType", propValue);
     }
 
     template<typename T>
